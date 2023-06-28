@@ -1,0 +1,68 @@
+body{
+
+background: blue;
+font: normal 15px arial;
+text-align: center;
+
+}
+.item{
+    background: rgb(157, 75, 233);
+    width: 50px;
+    height: 25px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+}
+.div0{
+
+    width: 300px;
+    margin: 5px;
+    display: none;
+
+
+}
+.container{
+    display: flex;
+    gap:1px;
+   
+}
+.container2{
+    display: flex;
+    gap: 1px;
+}
+.container3{
+    display: flex;
+    gap: 1px;
+}
+#section1{
+    border: 5px solid;
+    border-color:darkblue;
+    border-radius: 20px;
+    background: rgb(255, 145, 0);
+    width: 210px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 13px 13px 10px black;
+}
+
+#cabecalho{
+margin-top: 50px;
+color: chartreuse;
+}
+
+#titulo1{
+    color: aliceblue;
+}
+#parbotao{
+ 
+    font: 25px solid;
+    color: white;
+}
+#parbotao2{
+ 
+    font: 25px solid;
+    color: white;
+}
