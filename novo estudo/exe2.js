@@ -2,6 +2,8 @@ function iniciar(){
   document.getElementById("nome1").focus()
   //window.alert("BEM VINDO AO JOGO DA VELHA")
 }
+const div1 = document.querySelector(".div1")
+const item = document.querySelector(".item")
 const caixa = document.querySelector(".caixa")
 const div0 = document.querySelector(".div0")
 function jogar(){
@@ -27,8 +29,8 @@ div0.style.display = "flex"
 div1.addEventListener('click', clicar)
 
 function clicar(){
-
-    div1.document.innerText = "ola"
+  window.alert("ola")
+    div1.document.innerText = "X"
 }
 }
 
